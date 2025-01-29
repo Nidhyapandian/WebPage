@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 COPY . /usr/share/nginx/html/
 #RUN rm -rf index.html
